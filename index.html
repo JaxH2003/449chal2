@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>This is a CSS Popover Example</h1>
+    <h2>Why was Cinderella so bad at Soccer?</h2>
+    <button popovertarget="mypop" class="trigger">Click For answer!</button>
+      <div id="mypop" popover=manual>
+        <button class="close-btn" popovertarget="mypop" popovertargetaction="hide">
+          <span aria-hidden=”true”>❌</span>
+          <span class="sr-only">Close</span>
+        </button>
+        <p>She kept running away from the ball!<p>
+      </div>
+</body>
+</html>
